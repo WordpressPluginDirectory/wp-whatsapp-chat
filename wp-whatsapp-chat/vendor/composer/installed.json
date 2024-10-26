@@ -7,12 +7,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-assets.git",
-                "reference": "a48127b0d20213d6f126a544a3a79f3269e1d27f"
+                "reference": "d3d1c21e4805053de45eed1ed499089494c366f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-assets/zipball/a48127b0d20213d6f126a544a3a79f3269e1d27f",
-                "reference": "a48127b0d20213d6f126a544a3a79f3269e1d27f",
+                "url": "https://api.github.com/repos/Automattic/jetpack-assets/zipball/d3d1c21e4805053de45eed1ed499089494c366f6",
+                "reference": "d3d1c21e4805053de45eed1ed499089494c366f6",
                 "shasum": ""
             },
             "require": {
@@ -20,7 +20,7 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.6",
+                "automattic/jetpack-changelogger": "^4.2.7",
                 "brain/monkey": "2.6.1",
                 "wikimedia/testing-access-wrapper": "^1.0 || ^2.0 || ^3.0",
                 "yoast/phpunit-polyfills": "^1.1.1"
@@ -28,7 +28,7 @@
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
-            "time": "2024-08-29T09:10:31+00:00",
+            "time": "2024-10-25T11:53:15+00:00",
             "default-branch": true,
             "type": "jetpack-library",
             "extra": {
@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-composer-plugin.git",
-                "reference": "ebaa430e39dcb3bac7bc88a18f6a4d04077ecccf"
+                "reference": "7de6ceeca67ba01cdcb8fd930bd9a199b2b1e999"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-composer-plugin/zipball/ebaa430e39dcb3bac7bc88a18f6a4d04077ecccf",
-                "reference": "ebaa430e39dcb3bac7bc88a18f6a4d04077ecccf",
+                "url": "https://api.github.com/repos/Automattic/jetpack-composer-plugin/zipball/7de6ceeca67ba01cdcb8fd930bd9a199b2b1e999",
+                "reference": "7de6ceeca67ba01cdcb8fd930bd9a199b2b1e999",
                 "shasum": ""
             },
             "require": {
@@ -81,11 +81,11 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.6",
+                "automattic/jetpack-changelogger": "^4.2.7",
                 "composer/composer": "^2.2 || ^2.4",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
-            "time": "2024-08-26T15:56:06+00:00",
+            "time": "2024-10-25T11:52:05+00:00",
             "default-branch": true,
             "type": "composer-plugin",
             "extra": {
@@ -129,26 +129,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-constants.git",
-                "reference": "2ce9161b642a0fac31d6734c707756c009045d8e"
+                "reference": "dc19fd22ba7b200acde14872ab273abcf3027a2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-constants/zipball/2ce9161b642a0fac31d6734c707756c009045d8e",
-                "reference": "2ce9161b642a0fac31d6734c707756c009045d8e",
+                "url": "https://api.github.com/repos/Automattic/jetpack-constants/zipball/dc19fd22ba7b200acde14872ab273abcf3027a2e",
+                "reference": "dc19fd22ba7b200acde14872ab273abcf3027a2e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.0"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^4.2.6",
+                "automattic/jetpack-changelogger": "^4.2.7",
                 "brain/monkey": "2.6.1",
                 "yoast/phpunit-polyfills": "^1.1.1"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
-            "time": "2024-08-23T15:42:56+00:00",
+            "time": "2024-10-25T11:52:12+00:00",
             "default-branch": true,
             "type": "jetpack-library",
             "extra": {
@@ -184,12 +184,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/franmastromarino/wp-options-orm.git",
-                "reference": "94ea51462e7c2a9790fc29f5c0293a03833388da"
+                "reference": "dfec8095b65a507e19ff377d976c596ba13e4f27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/franmastromarino/wp-options-orm/zipball/94ea51462e7c2a9790fc29f5c0293a03833388da",
-                "reference": "94ea51462e7c2a9790fc29f5c0293a03833388da",
+                "url": "https://api.github.com/repos/franmastromarino/wp-options-orm/zipball/dfec8095b65a507e19ff377d976c596ba13e4f27",
+                "reference": "dfec8095b65a507e19ff377d976c596ba13e4f27",
                 "shasum": ""
             },
             "require": {
@@ -206,13 +206,13 @@
                 "squizlabs/php_codesniffer": "*",
                 "wp-coding-standards/wpcs": "^2.3.0"
             },
-            "time": "2024-02-09T18:33:02+00:00",
+            "time": "2024-09-18T14:23:52+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "dist",
             "autoload": {
                 "files": [
-                    "src/helpers.php"
+                    "src/V2/helpers.php"
                 ],
                 "psr-4": {
                     "QuadLayers\\WP_Orm\\": "src/"
@@ -236,7 +236,7 @@
             ],
             "support": {
                 "issues": "https://github.com/franmastromarino/wp-options-orm/issues",
-                "source": "https://github.com/franmastromarino/wp-options-orm/tree/main"
+                "source": "https://github.com/franmastromarino/wp-options-orm/tree/dev1.2.0"
             },
             "install-path": "../franmastromarino/wp-orm"
         },
@@ -305,12 +305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/franmastromarino/wp-notice-plugin-promote.git",
-                "reference": "cea8e5409b2a088618c1f51c94da1d3ab6f057b2"
+                "reference": "b7e86c63dcc1cb6106b1b99e99a0e8f943d015c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/franmastromarino/wp-notice-plugin-promote/zipball/cea8e5409b2a088618c1f51c94da1d3ab6f057b2",
-                "reference": "cea8e5409b2a088618c1f51c94da1d3ab6f057b2",
+                "url": "https://api.github.com/repos/franmastromarino/wp-notice-plugin-promote/zipball/b7e86c63dcc1cb6106b1b99e99a0e8f943d015c8",
+                "reference": "b7e86c63dcc1cb6106b1b99e99a0e8f943d015c8",
                 "shasum": ""
             },
             "require": {
@@ -321,7 +321,7 @@
                 "phpcompatibility/phpcompatibility-wp": "^2.1.0",
                 "wp-coding-standards/wpcs": "^2.3.0"
             },
-            "time": "2024-08-07T18:58:37+00:00",
+            "time": "2024-10-25T13:53:55+00:00",
             "default-branch": true,
             "type": "jetpack-library",
             "extra": {
@@ -352,7 +352,7 @@
             ],
             "support": {
                 "issues": "https://github.com/franmastromarino/wp-notice-plugin-promote/issues",
-                "source": "https://github.com/franmastromarino/wp-notice-plugin-promote/tree/1.1.5"
+                "source": "https://github.com/franmastromarino/wp-notice-plugin-promote/tree/main"
             },
             "install-path": "../../jetpack_vendor/quadlayers/wp-notice-plugin-promote"
         },
