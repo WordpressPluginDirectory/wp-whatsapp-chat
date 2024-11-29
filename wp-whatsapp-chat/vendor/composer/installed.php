@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'quadlayers/wp-whatsapp-chat',
-        'pretty_version' => 'v7.4.8',
-        'version' => '7.4.8.0',
-        'reference' => 'cb1794088005c4346c60044584bad4b60f36c521',
+        'pretty_version' => 'v7.5.0',
+        'version' => '7.5.0.0',
+        'reference' => '188cf8343eb64c8a290a2bf5c65ab117b0b434c9',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -68,7 +68,7 @@
         'quadlayers/wp-notice-plugin-promote' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'b7e86c63dcc1cb6106b1b99e99a0e8f943d015c8',
+            'reference' => 'e947d41c606f1ab679518d87f2b51230a9d74c92',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/quadlayers/wp-notice-plugin-promote',
             'aliases' => array(
@@ -121,9 +121,9 @@
             'dev_requirement' => false,
         ),
         'quadlayers/wp-whatsapp-chat' => array(
-            'pretty_version' => 'v7.4.8',
-            'version' => '7.4.8.0',
-            'reference' => 'cb1794088005c4346c60044584bad4b60f36c521',
+            'pretty_version' => 'v7.5.0',
+            'version' => '7.5.0.0',
+            'reference' => '188cf8343eb64c8a290a2bf5c65ab117b0b434c9',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

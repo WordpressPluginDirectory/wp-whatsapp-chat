@@ -15,7 +15,7 @@ if ( class_exists( 'QuadLayers\\WP_Notice_Plugin_Promote\\Load' ) ) {
 	define( 'QLWAPP_PROMOTE_PREMIUM_SELL_SLUG', 'wp-whatsapp-chat-pro' );
 	define( 'QLWAPP_PROMOTE_PREMIUM_SELL_NAME', 'Social Chat PRO' );
 	define( 'QLWAPP_PROMOTE_PREMIUM_SELL_URL', QLWAPP_PREMIUM_SELL_URL );
-	define( 'QLWAPP_PROMOTE_PREMIUM_INSTALL_URL', 'https://quadlayers.com/product/whatsapp-chat/?utm_source=qlwapp_admin' );
+	define( 'QLWAPP_PROMOTE_PREMIUM_INSTALL_URL', 'https://quadlayers.com/products/whatsapp-chat/?utm_source=qlwapp_admin' );
 	/**
 	 * Notice cross sell 1
 	 */
