@@ -19,11 +19,11 @@ class Box extends SingleEntity {
 								">Click one of our contacts below to chat on WhatsApp</p>';
 	public $footer              = '<p style="text-align: start;">Need help? Our team is just a message away</p>';
 	public $response;
-	public $consentMessage;
-	public $consentEnabled = 0;
+	public $consent_message;
+	public $consent_enabled = 'no';
 
 	public function __construct() {
-		$this->response       = esc_html__( 'Write a response', 'wp-whatsapp-chat' );
-		$this->consentMessage = esc_html__( 'I accept cookies and privacy policy.', 'wp-whatsapp-chat' );
+		$this->response        = esc_html__( 'Write a response', 'wp-whatsapp-chat' );
+		$this->consent_message = esc_html__( 'I accept cookies and privacy policy.', 'wp-whatsapp-chat' );
 	}
 }

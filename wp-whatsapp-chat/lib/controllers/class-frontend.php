@@ -42,7 +42,6 @@ class Frontend {
 		do_action( 'qlwapp_load' );
 	}
 
-
 	public static function register_scripts() {
 
 		$frontend = include QLWAPP_PLUGIN_DIR . 'build/frontend/js/index.asset.php';

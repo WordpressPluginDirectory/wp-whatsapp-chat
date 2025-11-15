@@ -71,9 +71,9 @@ class Button {
 		}
 		if ( isset( $settings['icon'] ) ) {
 			// Check if it's a URL (for custom images) or a CSS class (for font icons)
-			if ( filter_var( $settings['icon'], FILTER_VALIDATE_URL ) || 
-				 ( strpos( $settings['icon'], 'http' ) === 0 ) || 
-				 ( strpos( $settings['icon'], '.' ) !== false && preg_match( '/\.(jpg|jpeg|png|gif|svg|webp)$/i', $settings['icon'] ) ) ) {
+			if ( filter_var( $settings['icon'], FILTER_VALIDATE_URL ) ||
+				( strpos( $settings['icon'], 'http' ) === 0 ) ||
+				( strpos( $settings['icon'], '.' ) !== false && preg_match( '/\.(jpg|jpeg|png|gif|svg|webp)$/i', $settings['icon'] ) ) ) {
 				// It's an image URL, sanitize as URL
 				$settings['icon'] = sanitize_url( $settings['icon'] );
 			} else {

@@ -159,7 +159,7 @@ class New_Admin_Menu {
 			esc_html__( 'Analytics', 'wp-whatsapp-chat' ),
 			esc_html__( 'Analytics', 'wp-whatsapp-chat' ),
 			'manage_options',
-			"{$menu_slug}&tab=settings",
+			"{$menu_slug}&tab=analytics",
 			'__return_null'
 		);
 	}
