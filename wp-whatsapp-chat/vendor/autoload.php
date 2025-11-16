@@ -19,7 +19,7 @@ if (PHP_VERSION_ID < 50600) {
 
 require_once __DIR__ . '/composer/autoload_real.php';
 
-$loader = ComposerAutoloaderInitdfcdcafad422a134bae76b3112e0cea8::getLoader();
+$loader = ComposerAutoloaderInitdea6571a2c1f6ca5b51f21d00282cea7::getLoader();
 
 /*
   QuadLayers WP Autoload injected by quadlayers/wp-autoload
