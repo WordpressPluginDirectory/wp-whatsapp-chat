@@ -5,7 +5,7 @@ Tags: whatsapp, whatsapp business, whatsapp chat, woocommerce whatsapp, click to
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.8
-Stable tag: 8.0.2
+Stable tag: 8.0.5
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,7 +13,7 @@ WhatsApp Chat🔥 allows you to enhance customer engagement! Integrate "WhatsApp
 
 == Description ==
 
-[Premium](https://quadlayers.com/products/whatsapp-chat/) | [Demo](https://quadlayers.com/demo/whatsapp-chat/) | [Documentation](https://quadlayers.com/documentation/whatsapp-chat/) | [Community](https://www.facebook.com/groups/quadlayers/)
+[Premium](https://quadlayers.com/products/whatsapp-chat/) | [Demo](https://quadlayers.com/demo/whatsapp-chat/) | [Documentation](https://quadlayers.com/documentation/whatsapp-chat/) | [Discord](https://discord.com/invite/U3rs3rPPQ4)
 
 WhatsApp Chat for WordPress allows your customers to click a button and open a conversation from your website directly to your "WhatsApp" or "WhatsApp Business" phone number. This plugin includes a Whatsapp button where you can include a pre-set message, which will be automatically be the first message in the conversation.
 
@@ -137,7 +137,16 @@ Don't use: +001-(555)1234567
 
 == Changelog ==
 
-= 8.0.1 =
+= 8.0.5 =
+* Fix: button image layout
+
+= 8.0.4 =
+* Fix: Discord invite link
+
+= 8.0.3 =
+* Fix: add rating support for premium bots feature
+
+= 8.0.2 =
 * Fix: improve admin menu tabs navigation 
 * Fix: improve time days multiselect
 * Fix: header and footer field sync issue in Box settings

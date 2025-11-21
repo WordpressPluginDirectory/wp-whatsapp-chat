@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "automattic/jetpack-assets",
-            "version": "v4.3.12",
-            "version_normalized": "4.3.12.0",
+            "version": "v4.3.13",
+            "version_normalized": "4.3.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-assets.git",
-                "reference": "71186c33ceffecdf3401511a36e4ec45094ab5e3"
+                "reference": "7403da3dfea8d33825ed995b64df4bbcbb3c38bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-assets/zipball/71186c33ceffecdf3401511a36e4ec45094ab5e3",
-                "reference": "71186c33ceffecdf3401511a36e4ec45094ab5e3",
+                "url": "https://api.github.com/repos/Automattic/jetpack-assets/zipball/7403da3dfea8d33825ed995b64df4bbcbb3c38bb",
+                "reference": "7403da3dfea8d33825ed995b64df4bbcbb3c38bb",
                 "shasum": ""
             },
             "require": {
@@ -21,7 +21,7 @@
                 "php": ">=7.2"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^6.0.8",
+                "automattic/jetpack-changelogger": "^6.0.9",
                 "automattic/phpunit-select-config": "^1.0.3",
                 "brain/monkey": "^2.6.2",
                 "wikimedia/testing-access-wrapper": "^1.0 || ^2.0 || ^3.0",
@@ -30,7 +30,7 @@
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
             },
-            "time": "2025-11-10T21:33:47+00:00",
+            "time": "2025-11-17T21:23:58+00:00",
             "type": "jetpack-library",
             "extra": {
                 "autotagger": true,
@@ -58,7 +58,7 @@
             ],
             "description": "Asset management utilities for Jetpack ecosystem packages",
             "support": {
-                "source": "https://github.com/Automattic/jetpack-assets/tree/v4.3.12"
+                "source": "https://github.com/Automattic/jetpack-assets/tree/v4.3.13"
             },
             "install-path": "../../jetpack_vendor/automattic/jetpack-assets"
         },
