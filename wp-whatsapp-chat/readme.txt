@@ -5,7 +5,7 @@ Tags: whatsapp, whatsapp business, whatsapp chat, woocommerce whatsapp, click to
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.8
-Stable tag: 8.0.6
+Stable tag: 8.0.8
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -136,6 +136,12 @@ Don't use: +001-(555)1234567
 * Brazilian Portuguese (thanks to [Dionizio Bach](@djio))
 
 == Changelog ==
+
+= 8.0.8 =
+* Fix: WhatsApp contacts modal and button close button color
+
+= 8.0.7 =
+* Fix: Color picker alpha
 
 = 8.0.6 =
 * Fix: WP Rocket compatibility
