@@ -5,7 +5,7 @@ Tags: whatsapp, whatsapp business, whatsapp chat, woocommerce whatsapp, click to
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.8
-Stable tag: 8.0.8
+Stable tag: 8.0.9
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -73,15 +73,20 @@ Also you can include WooCommerce WhatsApp button in the next actions:
 == WhatsApp Premium ==
 The premium version of the Social Chat plugin allows you to include multiple team member agents, distinguishing their names and labels inside. The contact box helps to provide direct contacts to the different support areas of your site.
 A new option to display a chatbox for each agent is included. This box will be displayed when the user clicks on the WhatsApp contact, and you can define custom message to be shown from each contact. Your users will be able to type the message that will be sent to the WhatsApp contact phone.
-Finally, we’ve included an option that allows you to select between more than fourteen icons to be included at WhatsApp button, and allowa full integration with the WordPress live customizer.
+Finally, we've included an option that allows you to select between more than fourteen icons to be included at WhatsApp button, and allowa full integration with the WordPress live customizer.
+
+== AI-Powered Chatbots (Beta) ==
+Build intelligent chatbots with our visual flow builder - no coding required! Create smart conversations using a simple drag-and-drop interface to convert visitors into customers. Design conversation flows with connected blocks, deploy instantly to your contacts, and boost engagement with AI-powered responses. Join our Discord community to get early access and help shape this revolutionary feature.
 
 == Social Chat Premium Features ==
 
+> * AI-Powered Chatbots with visual flow builder
 > * Multiple WhatsApp phone numbers
 > * Chatbox interface for each WhatsApp phone number
 > * Customize each WhatsApp contact welcome message
 > * Allow users to send the first message to your WhatsApp
-> * Display WhatsApp button based on custom post types and taxonomies 
+> * GDPR consent checkbox with customizable message
+> * Display WhatsApp button based on custom post types and taxonomies
 > * Display WhatsApp Button business hours
 > * Display WhatsApp Contacts business hours
 > * Google Analytics v3 events
@@ -108,7 +113,7 @@ You can change the shortcode attributes to customize the WhatsApp phone number, 
 
 You can contact us trough this channels
 
-[Support Forum](https://wordpress.org/support/plugin/wp-whatsapp-chat/) | [Support Ticket](https://quadlayers.com/account/support) | [Support Chat](https://www.facebook.com/quadlayers/)
+[Support Forum](https://wordpress.org/support/plugin/wp-whatsapp-chat/) | [Support Ticket](https://quadlayers.com/account/support) | [Discord Community](https://discord.com/invite/U3rs3rPPQ4)
 
 = Can I use more than one WhatsApp number? =
 
@@ -118,7 +123,7 @@ Yes, this option is available in our premium version
 
 = Social Chat is GDPR compatible? =
 
-Yes, Social Chat WP does not store any personal data. If needed, you can enable the consent message option, which displays a checkbox in the chat box where you can add your own customized GDPR notice.
+Yes, Social Chat WP is fully GDPR compliant and does not store any personal data. The premium version includes an advanced GDPR consent feature that displays a customizable checkbox with your privacy notice. Users must accept the consent before they can interact with contacts or send messages, ensuring complete compliance with data protection regulations.
 
 = Will my WhatsApp number be visible to all users? =
 
@@ -136,6 +141,9 @@ Don't use: +001-(555)1234567
 * Brazilian Portuguese (thanks to [Dionizio Bach](@djio))
 
 == Changelog ==
+
+= 8.0.9 =
+* Fix: premium compatibility
 
 = 8.0.8 =
 * Fix: WhatsApp contacts modal and button close button color

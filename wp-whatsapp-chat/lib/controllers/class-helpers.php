@@ -38,7 +38,6 @@ class Helpers {
 				'QLWAPP_PLUGIN_VERSION'        => QLWAPP_PLUGIN_VERSION,
 				'QLWAPP_PLUGIN_FILE'           => QLWAPP_PLUGIN_FILE,
 				'QLWAPP_PLUGIN_DIR'            => QLWAPP_PLUGIN_DIR,
-				'QLWAPP_GROUP_URL'             => QLWAPP_GROUP_URL,
 				'QLWAPP_TIMEZONE_OPTIONS'      => $timezone_options,
 				'QLWAPP_MESSAGE_REPLACEMENTS'  => qlwapp_get_replacements_text(),
 				'QLWAPP_IS_WOOCOMMERCE_ACTIVE' => class_exists( 'WooCommerce' ),
