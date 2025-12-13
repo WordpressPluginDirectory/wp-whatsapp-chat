@@ -26,6 +26,14 @@ class Helpers {
 
 		global $wp_version;
 
+		// Get default contact from entity.
+		$contact_entity  = new \QuadLayers\QLWAPP\Entities\Contact();
+		$default_contact = $contact_entity->getProperties();
+
+		if ( isset( $default_contact['id'] ) ) {
+			$default_contact['id'] = null;
+		}
+
 		wp_localize_script(
 			'qlwapp-helpers',
 			'qlwappHelpers',
@@ -41,6 +49,7 @@ class Helpers {
 				'QLWAPP_TIMEZONE_OPTIONS'      => $timezone_options,
 				'QLWAPP_MESSAGE_REPLACEMENTS'  => qlwapp_get_replacements_text(),
 				'QLWAPP_IS_WOOCOMMERCE_ACTIVE' => class_exists( 'WooCommerce' ),
+				'QLWAPP_DEFAULT_CONTACT'       => $default_contact,
 			)
 		);
 	}

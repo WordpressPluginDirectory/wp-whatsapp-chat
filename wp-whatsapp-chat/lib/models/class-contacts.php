@@ -23,7 +23,6 @@ class Contacts {
 		->setDefaultEntities(
 			array(
 				array(
-					'allowDelete' => false,
 					'phone'       => qlwapp_format_phone( $button['phone'] ),
 					'message'     => qlwapp_replacements_vars( $button['message'] ),
 				),
@@ -52,6 +51,13 @@ class Contacts {
 	}
 
 	public function delete( int $id ) {
+		$all_contacts = $this->get_all();
+
+		// Prevent deletion when only one contact remains
+		if ( count( $all_contacts ) <= 1 ) {
+			return false;
+		}
+
 		return $this->repository->delete( $id );
 	}
 
