@@ -5,7 +5,7 @@ Tags: whatsapp, whatsapp business, whatsapp chat, woocommerce whatsapp, click to
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.9
-Stable tag: 8.1.3
+Stable tag: 8.1.5
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.0
@@ -26,7 +26,7 @@ This plugin was formerly known as "WhatsApp Chat". WordPress forced us on August
 
 == Why WhatsApp? ==
 WhatsApp is these days, the most popular instant messaging application in the world. Is available in more than 100 countries and supporting more than 50 languages.
-This means most of our users <span style="background-color: #f6d5d9;">use</span> WhatsApp as their main contact method, and they probably have been using it for years. Therefore, offering easy access from our website is a good way to convert those visitors into customers.
+This means most of our users use WhatsApp as their main contact method, and they probably have been using it for years. Therefore, offering easy access from our website is a good way to convert those visitors into customers.
 Generating leads is the key to every business success, and the Social Chat button can help you to increase your overall sales and reach this goal.
 
 == WhatsApp Button ==
@@ -144,23 +144,31 @@ Don't use: +001-(555)1234567
 
 == Changelog ==
 
+= 8.1.5 =
+* Fix: RTL support
+* Fix: Admin menu menu loading preview 
+
+= 8.1.4 =
+* Fix: WooCommerce HPOS compatibility
+* Feat: Customize tab
+
 = 8.1.3 =
-* WooCommerce compatibility
+* Feat: WooCommerce compatibility
 
 = 8.1.2 =
-* Fix: header & footer headings sizes
-* Fix: display default new contact settings 
+* Fix: Header & footer headings sizes
+* Fix: Display default new contact settings
 
 = 8.1.1 =
-* Fix: premium bot redirect block
+* Fix: Premium bot redirect block
 
 = 8.1.0 =
-* WordPress compatibility
-* Fix: premium compatibility
+* Fix: WordPress compatibility
+* Fix: Premium compatibility
 
 = 8.0.9 =
-* Fix: legacy admin menu settings
-* Fix: premium compatibility
+* Fix: Legacy admin menu settings
+* Fix: Premium compatibility
 
 = 8.0.8 =
 * Fix: WhatsApp contacts modal and button close button color
@@ -172,21 +180,21 @@ Don't use: +001-(555)1234567
 * Fix: WP Rocket compatibility
 
 = 8.0.5 =
-* Fix: button image layout
+* Fix: Button image layout
 
 = 8.0.4 =
 * Fix: Discord invite link
 
 = 8.0.3 =
-* Fix: add rating support for premium bots feature
+* Fix: Add rating support for premium bots feature
 
 = 8.0.2 =
-* Fix: improve admin menu tabs navigation 
-* Fix: improve time days multiselect
-* Fix: header and footer field sync issue in Box settings
+* Fix: Improve admin menu tabs navigation
+* Fix: Improve time days multiselect
+* Fix: Header and footer field sync issue in Box settings
 
 = 8.0.1 =
-* Fix: localStorage store name
+* Fix: LocalStorage store name
 
 = 8.0.0 =
 * Feat: Premium Bots feature support (coming soon)
