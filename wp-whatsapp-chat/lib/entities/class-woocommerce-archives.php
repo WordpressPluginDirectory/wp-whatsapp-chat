@@ -3,10 +3,10 @@ namespace QuadLayers\QLWAPP\Entities;
 
 use QuadLayers\WP_Orm\Entity\SingleEntity;
 
-class WooCommerce extends SingleEntity {
+class WooCommerce_Archives extends SingleEntity {
 	public $layout             = 'button';
 	public $box                = 'no';
-	public $position           = 'woocommerce_before_add_to_cart_form';
+	public $position           = 'woocommerce_before_shop_loop_item';
 	public $text               = '';
 	public $message            = '';
 	public $icon               = 'qlwapp-whatsapp-icon';
@@ -24,6 +24,10 @@ class WooCommerce extends SingleEntity {
 	public $animation_name     = '';
 	public $animation_delay    = '';
 	public $position_priority  = 10;
+	public $show_in_shop       = 'yes';
+	public $show_in_category   = 'yes';
+	public $show_in_tag        = 'yes';
+	public $show_in_brand      = 'yes';
 	public $devices            = 'hide';
 
 	public function __construct() {

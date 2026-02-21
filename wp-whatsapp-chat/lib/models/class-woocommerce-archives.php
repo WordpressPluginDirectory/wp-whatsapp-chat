@@ -1,20 +1,20 @@
 <?php
 namespace QuadLayers\QLWAPP\Models;
 
-use QuadLayers\QLWAPP\Entities\WooCommerce as WooCommerce_Entity;
+use QuadLayers\QLWAPP\Entities\WooCommerce_Archives as WooCommerceArchives_Entity;
 
 use QuadLayers\WP_Orm\Builder\SingleRepositoryBuilder;
 
-class WooCommerce {
+class WooCommerce_Archives {
 
 	protected static $instance;
 	protected $repository;
 
 	public function __construct() {
-		add_filter( 'sanitize_option_qlwapp_woocommerce', 'wp_unslash' );
+		add_filter( 'sanitize_option_qlwapp_woocommerce_archives', 'wp_unslash' );
 		$builder = ( new SingleRepositoryBuilder() )
-		->setTable( 'qlwapp_woocommerce' )
-		->setEntity( WooCommerce_Entity::class );
+		->setTable( 'qlwapp_woocommerce_archives' )
+		->setEntity( WooCommerceArchives_Entity::class );
 
 		$this->repository = $builder->getRepository();
 	}
@@ -30,7 +30,7 @@ class WooCommerce {
 		if ( $entity ) {
 			$result = $entity->getProperties();
 		} else {
-			$admin  = new WooCommerce_Entity();
+			$admin  = new WooCommerceArchives_Entity();
 			$result = $admin->getProperties();
 		}
 
