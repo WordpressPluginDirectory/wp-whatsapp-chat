@@ -31,8 +31,8 @@ class WooCommerce_Archives extends SingleEntity {
 	public $devices            = 'hide';
 
 	public function __construct() {
-		$this->text     = esc_html__( 'How can I help you?', 'wp-whatsapp-chat' );
-		$this->message  = sprintf( esc_html__( 'Hello! I\'m testing the %1$s plugin %2$s', 'wp-whatsapp-chat' ), QLWAPP_PLUGIN_NAME, QLWAPP_LANDING_URL );
+		$this->text     = esc_html__( 'Ask about this', 'wp-whatsapp-chat' );
+		$this->message  = esc_html__( 'Hello! I\'m browsing *{SITE_TITLE}* and I need assistance finding the right product. Can you help me? {PAGE_URL}', 'wp-whatsapp-chat' );
 		$this->timezone = qlwapp_get_timezone_current();
 	}
 }
