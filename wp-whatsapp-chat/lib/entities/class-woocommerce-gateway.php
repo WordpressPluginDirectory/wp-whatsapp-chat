@@ -10,7 +10,7 @@ use QuadLayers\WP_Orm\Entity\SingleEntity;
 class WooCommerce_Gateway extends SingleEntity {
 
 	// Configuración del gateway
-	public $enabled      = 'yes';
+	public $enabled      = 'no';
 	public $title        = '';
 	public $description  = '';
 	public $instructions = '';

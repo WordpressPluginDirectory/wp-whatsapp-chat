@@ -5,7 +5,7 @@ Tags: whatsapp, whatsapp business, whatsapp chat, woocommerce whatsapp, click to
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.9
-Stable tag: 8.3.2
+Stable tag: 8.3.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.0
@@ -199,6 +199,12 @@ Don't use: +001-(555)1234567
 * Brazilian Portuguese (thanks to [Dionizio Bach](@djio))
 
 == Changelog ==
+= 8.3.4 =
+* Fix: WooCommerce checkout gateway is now disabled by default
+
+= 8.3.3 =
+* Fix: Prevent WooCommerce button hooks from loading when devices visibility is set to hide
+
 = 8.3.2 =
 * Feat: Add contact type icon badge on avatar (phone, group, bot)
 * Fix: Prevent user first message in contact bots
