@@ -5,7 +5,7 @@ Tags: whatsapp, whatsapp business, whatsapp chat, woocommerce whatsapp, click to
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.9
-Stable tag: 8.3.4
+Stable tag: 8.3.7
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.0
@@ -199,6 +199,18 @@ Don't use: +001-(555)1234567
 * Brazilian Portuguese (thanks to [Dionizio Bach](@djio))
 
 == Changelog ==
+
+= 8.3.7 =
+* Feat: Unified global Save/Reset footer across all settings tabs
+* Fix: Settings changes no longer lost when navigating between tabs
+* Fix: Rename Cancel button to Reset to better reflect revert-to-saved behavior
+
+= 8.3.6 =
+* Fix: LiteSpeed Cache compatibility for frontend bundle
+
+= 8.3.5 =
+* Fix: Improve admin dashboard menu navigation
+
 = 8.3.4 =
 * Fix: WooCommerce checkout gateway is now disabled by default
 
