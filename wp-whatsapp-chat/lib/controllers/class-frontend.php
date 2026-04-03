@@ -20,6 +20,7 @@ class Frontend {
 		add_action(
 			'qlwapp_load',
 			function () {
+				add_action( 'wp_enqueue_scripts', array( __CLASS__, 'enqueue_frontend' ), 20 );
 				add_action( 'wp_footer', array( __CLASS__, 'add_app' ) );
 				add_shortcode( 'whatsapp', array( __CLASS__, 'do_shortcode' ) );
 			},
@@ -37,7 +38,7 @@ class Frontend {
 
 	public function display() {
 
-		$is_elementor_library = isset( $_GET['post_type'] ) && $_GET['post_type'] === 'elementor_library' && isset( $_GET['render_mode'] ) && $_GET['render_mode'] === 'template-preview';
+		$is_elementor_library = isset( $_GET['post_type'] ) && 'elementor_library' === $_GET['post_type'] && isset( $_GET['render_mode'] ) && 'template-preview' === $_GET['render_mode'];
 
 		if ( $is_elementor_library ) {
 			return;
@@ -70,6 +71,18 @@ class Frontend {
 		);
 	}
 
+	public static function enqueue_frontend() {
+		$display    = Models_Display::instance()->get();
+		$is_visible = Entity_Visibility::instance()->is_show_view( $display );
+
+		if ( ! $is_visible ) {
+			return;
+		}
+
+		wp_enqueue_script( 'qlwapp-frontend' );
+		wp_enqueue_style( 'qlwapp-frontend' );
+	}
+
 	public static function add_app() {
 
 		$button  = Models_Button::instance()->get();
@@ -83,6 +96,9 @@ class Frontend {
 			return;
 		}
 
+		// Intentional: this enqueue is necessary for shortcode rendering and as a fallback
+		// when enqueue_frontend() (hooked on wp_enqueue_scripts) hasn't run yet.
+		// WordPress deduplicates assets, so there is no double-loading.
 		wp_enqueue_script( 'qlwapp-frontend' );
 		wp_enqueue_style( 'qlwapp-frontend' );
 
@@ -110,7 +126,7 @@ class Frontend {
 		$scheme_json   = wp_json_encode( $scheme );
 
 		?>
-		<div 
+		<div
 			class="qlwapp"
 			style="<?php echo esc_attr( $style ); ?>"
 			data-contacts="<?php echo esc_attr( $contacts_json ); ?>"

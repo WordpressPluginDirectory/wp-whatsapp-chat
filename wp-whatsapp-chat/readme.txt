@@ -5,7 +5,7 @@ Tags: whatsapp, whatsapp business, whatsapp chat, woocommerce whatsapp, click to
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.9
-Stable tag: 8.3.7
+Stable tag: 8.3.8
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.0
@@ -199,6 +199,12 @@ Don't use: +001-(555)1234567
 * Brazilian Portuguese (thanks to [Dionizio Bach](@djio))
 
 == Changelog ==
+
+= 8.3.8 =
+* Fix: Enqueue frontend assets
+* Fix: Move Call to action and WhatsApp Link Type settings to Contact tab
+* Fix: Footer textarea text color now respects scheme settings
+* Fix: PHP errors
 
 = 8.3.7 =
 * Feat: Unified global Save/Reset footer across all settings tabs

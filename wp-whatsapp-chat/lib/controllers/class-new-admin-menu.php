@@ -84,6 +84,7 @@ class New_Admin_Menu {
 			return;
 		}
 
+		wp_deregister_style( 'colors' );
 		wp_deregister_style( 'wp-admin' );
 		wp_enqueue_style( 'admin-bar' );
 		wp_enqueue_style( 'admin-menu' );
