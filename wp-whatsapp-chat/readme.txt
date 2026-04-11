@@ -5,7 +5,7 @@ Tags: whatsapp, whatsapp business, whatsapp chat, woocommerce whatsapp, click to
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.9
-Stable tag: 8.3.8
+Stable tag: 8.4.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.0
@@ -199,6 +199,16 @@ Don't use: +001-(555)1234567
 * Brazilian Portuguese (thanks to [Dionizio Bach](@djio))
 
 == Changelog ==
+
+= 8.4.0 =
+* Fix: Bot message color
+
+= 8.3.9 =
+* Fix: Reset button in bot chat is now always visible instead of only at conversation end
+* Fix: Add debug logs for clientSideAction redirect to diagnose open-in-new-tab issues
+* Fix: Admin menu layout height and sticky header
+* Fix: Preview panel device frame for mobile and desktop
+* Fix: Sidebar collapse toggle button repositioned to sidebar edge
 
 = 8.3.8 =
 * Fix: Enqueue frontend assets
