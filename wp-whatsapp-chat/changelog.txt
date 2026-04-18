@@ -1,5 +1,8 @@
 ﻿== Changelog ==
 
+= 8.4.3 =
+* Update: Welcome page
+
 = 7.8.8 =
 * Feat: GDPR consent message
 

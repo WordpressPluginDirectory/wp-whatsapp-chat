@@ -5,11 +5,11 @@ Tags: whatsapp, whatsapp business, whatsapp chat, woocommerce whatsapp, click to
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.9
-Stable tag: 8.4.1
+Stable tag: 8.4.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.0
-WC tested up to: 10.6
+WC tested up to: 10.7
 
 WhatsApp Chat🔥 allows you to enhance customer engagement! Integrate "WhatsApp" or "WhatsApp Business" with a single click.
 
@@ -199,6 +199,9 @@ Don't use: +001-(555)1234567
 * Brazilian Portuguese (thanks to [Dionizio Bach](@djio))
 
 == Changelog ==
+
+= 8.4.2 =
+* fix: WooCommerce compatibility
 
 = 8.4.1 =
 * Fix: Phone and date input blocks in chatbot flows
