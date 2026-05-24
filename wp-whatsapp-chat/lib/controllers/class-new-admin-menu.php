@@ -23,6 +23,8 @@ class New_Admin_Menu {
 
 	public function register_scripts() {
 
+		global $wp_version;
+
 		$menu           = include QLWAPP_PLUGIN_DIR . 'build/new-admin-menu/js/index.asset.php';
 		$entity_options = Entity_Options::instance();
 
@@ -41,6 +43,9 @@ class New_Admin_Menu {
 				'QLWAPP_API_REST_ROUTES'    => $this->get_endpoints(),
 				'QLWAPP_DISPLAY_POST_TYPES' => $entity_options->get_entries(),
 				'QLWAPP_DISPLAY_TAXONOMIES' => $entity_options->get_taxonomies(),
+				'QUICK_BOT_URL'             => 'https://app.quick.bot',
+				'QUICK_BOT_VIEWER_URL'      => 'https://viewer.quick.bot',
+				'WP_VERSION'                => $wp_version,
 			)
 		);
 
@@ -147,6 +152,17 @@ class New_Admin_Menu {
 			"{$menu_slug}&tab=contacts",
 			'__return_null'
 		);
+		if ( ! class_exists( 'QuadLayers\\QLWAPP_PRO\\Controllers\\New_Admin_Menu' ) ) {
+			add_submenu_page(
+				$menu_slug,
+				esc_html__( 'Bots', 'wp-whatsapp-chat' ),
+				esc_html__( 'Bots', 'wp-whatsapp-chat' ) . ' <span class="qlwapp__badge">Beta</span>',
+				'manage_options',
+				"{$menu_slug}&tab=bots",
+				'__return_null',
+				5
+			);
+		}
 		add_submenu_page(
 			$menu_slug,
 			esc_html__( 'Customize', 'wp-whatsapp-chat' ),

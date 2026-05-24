@@ -4,8 +4,8 @@ Donate link: https://quadlayers.com/products/whatsapp-chat/
 Tags: whatsapp, whatsapp business, whatsapp chat, woocommerce whatsapp, click to chat
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.9
-Stable tag: 8.4.3
+Tested up to: 7.0
+Stable tag: 8.5.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.0
@@ -200,8 +200,39 @@ Don't use: +001-(555)1234567
 
 == Changelog ==
 
+= 8.5.1 =
+* WordPress 7.0 compatibility
+
+= 8.5.0 =
+* Feat: Add onboarding modal for [Quick.Bot](https://quick.bot/) integration
+
+= 8.4.9 =
+* Feat: Add support chat button for in-app assistance
+* Improvement: Improve Alert components responsive layout for mobile devices
+* Fix: Add chevron icon to all Alert action buttons
+
+= 8.4.8 =
+* Fix: Email verification link not verifying account due to token lost before modal render
+* Fix: Token persisting after verification causing stale verification view on popover reopen
+
+= 8.4.7 =
+* Fix: Clear token from URL after email verification to prevent re-showing verification form
+
+= 8.4.6 =
+* Feat: Add bots tab
+
+= 8.4.5 =
+* Feat: Add secondary color
+* Fix: Add customize default colors
+
+= 8.4.4 =
+* Feat: Add toggle contact button
+
+= 8.4.3 =
+* Fix: Update welcome page
+
 = 8.4.2 =
-* fix: WooCommerce compatibility
+* Fix: WooCommerce compatibility
 
 = 8.4.1 =
 * Fix: Phone and date input blocks in chatbot flows

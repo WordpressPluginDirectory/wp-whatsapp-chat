@@ -19,6 +19,7 @@ final class Plugin {
 		Controllers\WooCommerce::instance();
 		Controllers\WooCommerce_Archives::instance();
 		Controllers\Components::instance();
+		Controllers\Auth_Token_API::instance();
 		if ( version_compare( $wp_version, '6.2', '<' ) ) {
 			Controllers\Admin_Menu::instance();
 			Controllers\Admin_Menu_WooCommerce::instance();

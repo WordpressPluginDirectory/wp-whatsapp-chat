@@ -1,5 +1,8 @@
 ﻿== Changelog ==
 
+= 8.5.1 =
+* WordPress 7.0 compatibility
+
 = 8.4.3 =
 * Update: Welcome page
 
